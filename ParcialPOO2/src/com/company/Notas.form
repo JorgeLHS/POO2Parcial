@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Notas">
+  <grid id="27dc6" binding="pnlMain" layout-manager="GridLayoutManager" row-count="16" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="640" height="515"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="aec18" class="javax.swing.JLabel" binding="lblnombre">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="cc799" class="javax.swing.JLabel" binding="lblcorreoelectronico">
+        <constraints>
+          <grid row="8" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Correo electrónico"/>
+        </properties>
+      </component>
+      <component id="376a" class="javax.swing.JLabel" binding="lblapellidos">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="49"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Apellidos"/>
+        </properties>
+      </component>
+      <component id="89a1f" class="javax.swing.JLabel" binding="lbldocid">
+        <constraints>
+          <grid row="5" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Documento de identidad"/>
+        </properties>
+      </component>
+      <component id="a23d6" class="javax.swing.JTextField" binding="txtcodigo">
+        <constraints>
+          <grid row="1" column="3" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="313a5" class="javax.swing.JTextField" binding="txtnombremateria">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="f985" class="javax.swing.JTextField" binding="txtnota">
+        <constraints>
+          <grid row="9" column="3" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="ef2e1" class="javax.swing.JTextField" binding="txtnumerocreditos">
+        <constraints>
+          <grid row="6" column="3" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="df059" class="javax.swing.JButton" binding="btnNuevoEstudiante">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Nuevo estudiante"/>
+          <text value="Nuevo estudiante"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="5fa06" class="javax.swing.JButton" binding="btnnuevaMateria">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Nueva materia"/>
+          <text value="Nueva materia"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="d6e6e" class="javax.swing.JTextField" binding="txtnombre">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ea1e9" class="javax.swing.JTextField" binding="txtapellido">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fe7a1" class="javax.swing.JTextField" binding="txtdocumentoidentidad">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="563d3" class="javax.swing.JTextField" binding="txtcorreoelectronico">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="93373" class="javax.swing.JTextField" binding="txtmostrarestudiante">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="683ae" class="javax.swing.JTextField" binding="txtmostrarMateria">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="8415c" class="javax.swing.JLabel" binding="lblnombremateria">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre de la materia"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="d9918" class="javax.swing.JLabel" binding="lblcodigomateria">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Código materia"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="24ba1" class="javax.swing.JLabel" binding="lblcreditos">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Creditos"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="cd483" class="javax.swing.JLabel" binding="lblnota">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <requestFocusEnabled value="true"/>
+          <text value="Nota"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="3889d" class="javax.swing.JButton" binding="btnfinalizar">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Finalizar"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b5db3" class="javax.swing.JTextField" binding="txtpromedio">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
